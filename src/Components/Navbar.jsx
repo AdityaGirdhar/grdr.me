@@ -4,9 +4,9 @@ import '../Styles/Navbar.css'
 function Navbar() {
     return (
         <nav>
-            <div className="nav-content light">
+            <div className="nav-content">
                 <div className="left">
-                    <strong>Aditya</strong> Girdhar
+                    <strong>aditya</strong> girdhar
                 </div>
                 <div className="right">
                     <img className='d-toggle' src='https://cdn-icons-png.flaticon.com/512/15/15751.png' alt='dark-mode-toggle'/>
