@@ -3,7 +3,14 @@ import '../Styles/Navbar.css'
 function Navbar() {
     return (
         <nav>
-            <img alt="airbnb-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1200px-Airbnb_Logo_B%C3%A9lo.svg.png"/>
+            <div className="nav-content light">
+                <div className="left">
+                    <strong>Aditya</strong> Girdhar
+                </div>
+                <div className="right">
+                    nav
+                </div>
+            </div>
         </nav>
     )
 };
