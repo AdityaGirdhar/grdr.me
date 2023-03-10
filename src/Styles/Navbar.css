@@ -3,7 +3,11 @@
 }
 
 .light {
-    color: #313131;
+    color: #3e3e3e;
+}
+
+.hamburger-react {
+    padding: 12px;
 }
 
 body {
@@ -14,17 +18,26 @@ nav {
     display: flex;
     justify-content: center;
     height: 70px;
-    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.d-toggle {
+    height: 22px;
+    padding: 0px 10px;
 }
 
 .nav-content {
-    padding: 22px;
-    font-size: 1.4rem;
-    border: 1px solid red;
+    padding: 10px 20px;
+    font-size: 1.3rem;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
-    max-width: 1100px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
 }

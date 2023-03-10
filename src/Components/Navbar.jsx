@@ -1,3 +1,4 @@
+import { Cross as Hamburger } from 'hamburger-react'
 import '../Styles/Navbar.css'
 
 function Navbar() {
@@ -8,7 +9,8 @@ function Navbar() {
                     <strong>Aditya</strong> Girdhar
                 </div>
                 <div className="right">
-                    nav
+                    <img className='d-toggle' src='https://cdn-icons-png.flaticon.com/512/15/15751.png' alt='dark-mode-toggle'/>
+                    <Hamburger size={24}/>
                 </div>
             </div>
         </nav>
