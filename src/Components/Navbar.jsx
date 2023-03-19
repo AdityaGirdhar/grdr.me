@@ -6,10 +6,10 @@ function Navbar() {
         <nav>
             <div className="nav-content">
                 <div className="left">
-                    <strong>aditya</strong> girdhar
+                    <strong>Aditya Girdhar</strong>
                 </div>
                 <div className="right">
-                    <img className='d-toggle' src='https://cdn-icons-png.flaticon.com/512/15/15751.png' alt='dark-mode-toggle'/>
+                    {/* <img className='d-toggle' src='https://cdn-icons-png.flaticon.com/512/15/15751.png' alt='dark-mode-toggle'/> */}
                     <Hamburger size={24}/>
                 </div>
             </div>

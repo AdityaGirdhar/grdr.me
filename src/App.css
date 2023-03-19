@@ -1,5 +1,14 @@
 * {
-    font-family: Jet, sans-serif;
+    font-family: Inter, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0e0e0e;
+    color: white;
 }
 
 .light {
