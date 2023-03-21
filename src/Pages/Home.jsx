@@ -38,7 +38,7 @@ function Home() {
       </Link>
       </div>
 
-      <div id='construction' className="construction">i'm a computer science and engineering sophomore at iiit delhi. always open for new experiences!</div>
+      <div id='construction' className="construction">i'm a computer science and engineering sophomore at iiit delhi. always open to new experiences!</div>
 
       <h2>get in touch</h2>
       <div className="underline-one"></div>
