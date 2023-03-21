@@ -1,8 +1,12 @@
+h2 {
+    letter-spacing: 0.5px;
+}
+
 .marquee {
     position: relative;
     width: 100vw;
     max-width: 100%;
-    height: 1000px;
+    height: 80vw;
     overflow-x: hidden;
 }
 
@@ -11,6 +15,115 @@
     white-space: nowrap;
     will-change: transform;
     animation: marquee 80s linear infinite;
+}
+
+#construction {
+    padding-top: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    color: #c6c6c6;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+.underline-one {
+    width: 60px;
+    background: white;
+    height: 1px;
+    margin: -10px auto;
+    margin-bottom: 40px;
+}
+
+.socials {
+    margin: auto;
+    width: 90%;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.social-link img {
+    margin-top: 2px;
+    width: 20px;
+    display: inline;
+}
+
+.social-link h4 {
+    margin: 1px;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social-link {
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    padding: 10px 30px;
+    color: black;
+    font-weight: 500;
+    background-color: wheat;
+    font-size: 1.2rem;
+    transition: 0.2s;
+}
+
+.social-link:hover {
+    background: whitesmoke;
+    transition: 0.2s;
+}
+
+.cards-section {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    border-radius: 15px;
+    background: white;
+    width: 500px;
+    color: black;
+    margin: 0px 20px;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.card img {
+    margin-top: 40px;
+    width: calc(100% - 40px);
+    border-radius: 10px;
+}
+
+.card h4 {
+    margin: 0;
+}
+
+.card .name {
+    margin-top: 20px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.card .designation {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.card .description {
+    padding: 20px 0px;
+    width: calc(100% - 40px);
+    font-weight: 500;
 }
 
 @keyframes marquee {
@@ -25,11 +138,11 @@
     top: 10vh;
     left: 15vw;
     width: 70%;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
 .img-back {
-    filter: grayscale(100%);
+    filter: grayscale(100%) brightness(60%);
     z-index: -1;
 }
 
@@ -55,6 +168,21 @@ h1.hollow {
     animation: scroll infinite 5s;
 }
 
+.arrow {
+    position: absolute;
+    left: 48%;
+    width: 3%;
+    top: 800px;
+    z-index: 2;
+    animation: 2s bounce infinite;
+}
+
+.strike {
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+    margin-bottom: 40px;
+}
+
 @media only screen and (max-width: 1300px) {
     h1.landing-text {
         top: 3vh;
@@ -65,6 +193,9 @@ h1.hollow {
         top: 24vh !important;
         letter-spacing: 6px;
         font-size: 2rem !important;
+    }
+    .arrow {
+        top: 650px;
     }
 }
 
@@ -79,9 +210,24 @@ h1.hollow {
         letter-spacing: 5px;
         font-size: 1.4rem !important;
     }
+    .arrow {
+        left: 50%;
+        width: 2.5%;
+        top: 450px;
+    }
+    .socials {
+        flex-direction: column;
+    }
+    .social-link {
+        margin: auto;
+        margin-bottom: 30px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
+    .marquee {
+        height: 90vw;
+    }
     h1.landing-text {
         top: 8vh;
         letter-spacing: 6px;
@@ -91,6 +237,13 @@ h1.hollow {
         top: 15vh !important;
         letter-spacing: 5px;
         font-size: 1.1rem !important;
+    }
+    .arrow {
+        width: 3%;
+        bottom: 35%;
+    }
+    .arrow {
+        top: 300px;
     }
 }
 
@@ -104,6 +257,9 @@ h1.hollow {
         top: 13vh !important;
         letter-spacing: 5px;
         font-size: 0.8rem !important;
+    }
+    .arrow {
+        top: 300px;
     }
 }
 
