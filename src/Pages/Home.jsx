@@ -31,7 +31,7 @@ function Home() {
       </div>
       
       <img className="img-front" src={landingUp} data-aos='fade-up'/>
-      <Link  to="anchor" spy={true} smooth={true} offset={0}>
+      <Link  to="construction" spy={true} smooth={true} offset={-30}>
       <div className='top-text'>
         <img className='arrow' src={arrow} alt="arrow" />
       </div>
