@@ -76,6 +76,22 @@ a {
     transition: 0.2s;
 }
 
+svg path {
+    stroke-width: 1px;
+    transition: 250ms all ease;
+    width: 200px;
+}
+
+svg.arrow-link {
+    width: 100px;
+    height: 30px;
+}
+
+.card:hover path {
+    d: path("M0 9.35772H50.9956L44.2001 2.29941L46.4134 0L57 11L46.4134 22L44.2001 19.7006L50.9956 12.6423H0V9.35772Z");
+    d: "M0 9.35772H50.9956L44.2001 2.29941L46.4134 0L57 11L46.4134 22L44.2001 19.7006L50.9956 12.6423H0V9.35772Z";
+}
+
 .cards-section {
     width: 90%;
     max-width: 1200px;
@@ -89,14 +105,16 @@ a {
 .card {
     display: flex;
     border-radius: 15px;
-    background: rgb(245, 245, 245);
     width: 500px;
+    background: white;
     color: black;
     margin: 0px 20px;
     margin-bottom: 40px;
     padding-left: 40px;
     text-align: left;
     padding-bottom: 20px;
+    transition: 0.2s;
+    cursor: pointer;
 }
 
 .card img {
@@ -124,6 +142,15 @@ a {
     padding: 20px 0px;
     width: calc(100% - 40px);
     font-weight: 500;
+}
+
+.card-in {
+    display: flex;
+    justify-content: space-between;
+}
+
+.svg-path {
+    margin-top: 32px;
 }
 
 @keyframes marquee {
@@ -240,6 +267,12 @@ h1.hollow {
     }
     .card .description {
         width: calc(100% - 25px);
+    }
+    .svg-path {
+        margin-bottom: 10px;
+    }
+    svg.arrow-link {
+        width: 75px;
     }
 }
 

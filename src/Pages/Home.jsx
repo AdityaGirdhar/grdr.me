@@ -73,75 +73,161 @@ function Home() {
           <div className="card" data-aos="fade-up">
             <div>
               <img src={projectDashcab} alt="" />
-              <h3 className='name'>DashCab (work-in-progress)</h3>
-              <h4 className='designation'>Django/Node.js, React.js, MySQL</h4>
+              <div className='card-in'>
+                <div>
+                  <h3 className='name'>DashCab (work-in-progress)</h3>
+                  <h4 className='designation'>Django, Node.js, React.js, MySQL</h4>
+                </div>
+                {/* <div className='svg-path'>
+                  <svg class='arrow-link'>
+                    <path d="M0.5 9.35772H20.9956L14.2001 2.29941L16.4134 0L27 11L16.4134 22L14.2001 19.7006L20.9956 12.6423H0.5V9.35772Z" fill="#000"></path>
+                  </svg>
+                </div> */}
+              </div>
               <h4 className='description'>A full-stack cab hailing application. Scheduled to be completed by April, 2023. </h4>
             </div>
           </div>
 
           <div className="card" data-aos="fade-up">
+            <a href="https://esmt23.netlify.app/">
             <div>
               <img src={projectEsmt} alt="" />
-              <h3 className='name'>E-Summit'23 Official Website</h3>
-              <h4 className='designation'>React.js, Three.js, Design</h4>
+              <div className='card-in'>
+                <div>
+                  <h3 className='name'>E-Summit'23 Official Website</h3>
+                  <h4 className='designation'>React.js, Three.js, Design</h4>
+                </div>
+                <div className='svg-path'>
+                  <svg class='arrow-link'>
+                    <path d="M0.5 9.35772H20.9956L14.2001 2.29941L16.4134 0L27 11L16.4134 22L14.2001 19.7006L20.9956 12.6423H0.5V9.35772Z" fill="#000"></path>
+                  </svg>
+                </div>
+              </div>
               <h4 className='description'>This website was designed and developed for E-summit'23: IIIT Delhi's flagship entrepreneurship summit.</h4>
             </div>
+            </a>
           </div>
 
           <div className="card" data-aos="fade-up">
+            <a href="https://ted-phi.vercel.app">
             <div>
               <img src={projectTedx} alt="" />
-              <h3 className='name'>TEDxIIITD'23 Official Website</h3>
-              <h4 className='designation'>Vue.js, Three.js, Design</h4>
+              <div className='card-in'>
+                <div>
+                  <h3 className='name'>TEDxIIITD'23 Official Website</h3>
+                  <h4 className='designation'>Vue.js, Three.js, Design</h4>
+                </div>
+                <div className='svg-path'>
+                  <svg class='arrow-link'>
+                    <path d="M0.5 9.35772H20.9956L14.2001 2.29941L16.4134 0L27 11L16.4134 22L14.2001 19.7006L20.9956 12.6423H0.5V9.35772Z" fill="#000"></path>
+                  </svg>
+                </div>
+              </div>
               <h4 className='description'>This website was designed and developed for the 2023 edition of TEDxIIITD. Includes an end-to-end payment gateway.</h4>
             </div>
+            </a>
           </div>
 
           <div className="card" data-aos="fade-up">
+            <a href="https://btech-induction.netlify.app">
             <div>
               <img src={projectInduction} alt="" />
-              <h3 className='name'>Induction'22 Official Website</h3>
-              <h4 className='designation'>React.js, Design</h4>
+              <div className='card-in'>
+                <div>
+                  <h3 className='name'>Induction'22 Official Website</h3>
+                  <h4 className='designation'>React.js, Design</h4>
+                </div>
+                <div className='svg-path'>
+                  <svg class='arrow-link'>
+                    <path d="M0.5 9.35772H20.9956L14.2001 2.29941L16.4134 0L27 11L16.4134 22L14.2001 19.7006L20.9956 12.6423H0.5V9.35772Z" fill="#000"></path>
+                  </svg>
+                </div>
+              </div>
               <h4 className='description'>This website was designed to royally welcome the Class of 2026 to IIIT-Delhi</h4>
             </div>
+            </a>
           </div>
 
           <div className="card" data-aos="fade-up">
+            <a href="https://github.com/AdityaGirdhar/Tank-Stars">
             <div>
               <img src='https://github.com/AdityaGirdhar/Tank-Stars/blob/main/assets/splash.png?raw=true' alt="" />
-              <h3 className='name'>Tank Stars Clone</h3>
-              <h4 className='designation'>Java, libGDX</h4>
+              <div className='card-in'>
+                <div>
+                  <h3 className='name'>Tank Stars Clone</h3>
+                  <h4 className='designation'>Java, libGDX</h4>
+                </div>
+                <div className='svg-path'>
+                  <svg class='arrow-link'>
+                    <path d="M0.5 9.35772H20.9956L14.2001 2.29941L16.4134 0L27 11L16.4134 22L14.2001 19.7006L20.9956 12.6423H0.5V9.35772Z" fill="#000"></path>
+                  </svg>
+                </div>
+              </div>
               <h4 className='description'>A watered-down clone of the popular mobile-game Tank Stars, developed in Java and libGDX with a strict, object-oriented design.</h4>
             </div>
+            </a>
           </div>
 
           <div className="card" data-aos="fade-up">
+            <a href="https://girdhar-todo.netlify.app">
             <div>
               <img src={projectTodo} alt="" style={{border: '1px solid grey'}}/>
-              <h3 className='name'>To-Do App!</h3>
-              <h4 className='designation'>React.js, Bootstrap v5</h4>
+              <div className='card-in'>
+                <div>
+                  <h3 className='name'>To-Do!</h3>
+                  <h4 className='designation'>React.js, Bootstrap v5</h4>
+                </div>
+                <div className='svg-path'>
+                  <svg class='arrow-link'>
+                    <path d="M0.5 9.35772H20.9956L14.2001 2.29941L16.4134 0L27 11L16.4134 22L14.2001 19.7006L20.9956 12.6423H0.5V9.35772Z" fill="#000"></path>
+                  </svg>
+                </div>
+              </div>
               <h4 className='description'>A nifty To-Do App for keeping track of daily chores, developed using React and styled using Bootstrap</h4>
             </div>
+            </a>
           </div>
 
           <div className="card" data-aos="fade-up">
+          <a href="https://github.com/AdityaGirdhar/password-generator">
             <div>
               <img src={projectPassword} alt="" />
-              <h3 className='name'>Password Generator</h3>
-              <h4 className='designation'>JavaScript, HTML5/CSS3</h4>
+              <div className='card-in'>
+                <div>
+                  <h3 className='name'>Password Generator</h3>
+                  <h4 className='designation'>JavaScript, HTML5/CSS3</h4>
+                </div>
+                <div className='svg-path'>
+                  <svg class='arrow-link'>
+                    <path d="M0.5 9.35772H20.9956L14.2001 2.29941L16.4134 0L27 11L16.4134 22L14.2001 19.7006L20.9956 12.6423H0.5V9.35772Z" fill="#000"></path>
+                  </svg>
+                </div>
+              </div>
               <h4 className='description'>A delightful Password Generator to quickly generate random passwords for use all throughout the internet. Written in JavaScript and HTML/CSS. First project :)</h4>
             </div>
+            </a>
           </div>
 
           <div className="card" data-aos="fade-up">
+            <a href="https://github.com/AdityaGirdhar/gsh">
             <div>
               <img src={projectGsh} alt="" />
-              <h3 className='name'>The Girdhar Shell (gsh)</h3>
-              <h4 className='designation'>C, Unix, Operating Systems</h4>
+              <div className='card-in'>
+                <div>
+                  <h3 className='name'>The Girdhar Shell (gsh)</h3>
+                  <h4 className='designation'>C, Unix, Operating Systems</h4>
+                </div>
+                <div className='svg-path'>
+                  <svg class='arrow-link'>
+                    <path d="M0.5 9.35772H20.9956L14.2001 2.29941L16.4134 0L27 11L16.4134 22L14.2001 19.7006L20.9956 12.6423H0.5V9.35772Z" fill="#000"></path>
+                  </svg>
+                </div>
+              </div>
               <h4 className='description'>The Girdhar Shell is an incredibly (un)sophisticated unix-based shell written using C and unix system-calls.</h4>
             </div>
+            </a>
           </div>
-
+          
         </div>
       </div>
 
